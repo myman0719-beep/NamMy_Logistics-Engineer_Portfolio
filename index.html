@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Nam My | Portfolio</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Nam My.</a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">Education</a>
+            <a href="#education">Thesis</a>
+            <a href="#contact">Activities</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hello, I am <span>Nam My</span></h1>
+            <div class="text-animate">
+                <h3>Logistics Engineer</h3>
+            </div>
+            <p>Logistics is the backbone of the global economy, connecting producers, businesses, and communities through complex
+            supply chains that keep the world moving. As technology evolves, integrating state-of-the-art science and engineering
+            in logistics is significant in building more efficient and sustainable systems. After three years of studying Logistic
+            Technologies, I have developed a strong foundation in supply chain operations and management. If given a chance, I
+            myself will seize the opportunities to apply this knowledge to improve and innovate logistics systems to become more
+            efficient and reliable. I aspire to contribute to a more sustainable logistics future and help make the world a better place.</p>
+
+            <div class="btn-box">
+                <a href="" class="btn">Introduce</a>
+                <a href="" class="btn">Hire me</a>
+            </div>
+        </div>
+
+        <div class="home-sci">
+            <a href="https://www.facebook.com/profile.php?id=100007781209444&mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                <svg viewBox="0 0 100 100" class="hex-shape" aria-hidden="true">
+                    <polygon points="50,0 95,20 95,70 50,100 5,70 5,20"></polygon>
+                </svg>
+                <i class='bx bxl-facebook-square'></i>
+            </a>
+
+            <a href="https://www.instagram.com/myman0719?fbclid=IwY2xjawSJy4hleHRuA2FlbQIxMABicmlkETFpbUNpMEkybDV0VFl1R2RUc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHpyUHvKcRF_bI4iMyP32q21yzV60hX-ZE7aBG3d1AR19Ryc5s2uLP2TANquT_aem_YWdncwBZr54VStNWY5wZdp5cRrky&brid=YWdncwGT3aninVKjcHr_ZiYK44yK" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <svg viewBox="0 0 100 100" class="hex-shape" aria-hidden="true">
+                    <polygon points="50,0 95,20 95,70 50,100 5,70 5,20"></polygon>
+                </svg>
+                <i class='bx bxl-instagram-alt'></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/do-my-27146a3b7?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <svg viewBox="0 0 100 100" class="hex-shape" aria-hidden="true">
+                    <polygon points="50,0 95,20 95,70 50,100 5,70 5,20"></polygon>
+                </svg>
+                <i class='bx bxl-linkedin-square'></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <h2 class="heading journey-heading">My <span>Journey</span></h2>
+
+        <div class="journey-wrap">
+            <div class="journey-card">
+                <div class="journey-media">
+                    <img
+                        class="journey-image"
+                        src="images/A Confirmation of Enrollment letter.jpg"
+                        alt="Bachelor of Engineering: Logistics Technologies"
+                    >
+                </div>
+                <div class="journey-caption">
+                    <p class="journey-title">
+                        Bachelor of Engineering: Logistics Technologies
+                        <span class="journey-date">Sep 2023 - Present</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="journey-divider"></div>
+
+            <div class="journey-card">
+                <div class="journey-media">
+                    <img
+                        class="journey-image"
+                        src="images/NUU_ADMISSION_2024.jpg"
+                        alt="National United University - NUU"
+                    >
+                </div>
+                <div class="journey-caption">
+                    <p class="journey-title">
+                        National United University - NUU
+                        <span class="journey-date">Feb 2024 – Jun 2024</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="journey-next-wrap">
+                <a href="#education" class="btn journey-next-btn">Next</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- thesis project section design -->
+    <section class="education" id="education">
+        <h2 class="heading thesis-heading">Thesis <span>Project</span></h2>
+
+        <div class="thesis-frame">
+            <iframe
+                id="thesisPdf"
+                src="images/BANVELAP_FINAL.pdf"
+                title="Thesis Project PDF"
+            ></iframe>
+        </div>
+
+        <div class="thesis-controls">
+            <button type="button" class="zoom-btn" data-action="out">−</button>
+            <input id="thesisZoom" type="range" min="80" max="160" value="100">
+            <button type="button" class="zoom-btn" data-action="in">+</button>
+            <span class="zoom-value">100%</span>
+        </div>
+
+        <p class="thesis-description thesis-monofrik-title">
+            This is a technical drawing of my Thesis Project: 2-axis Cartesian robotic system with A* pathfinding for automated medication dispensing in smart Pharmacy Logistics (design &amp; assemble by me)
+        </p>
+
+        <p class="thesis-summary">
+            The project focuses on the research and development of an automated pharmaceutical dispensing system for pharmacies, aiming to optimize medication management and dispensing workflows, minimize human error, and enhance service efficiency. The system integrates Smart Logistics (LogTech) technologies, including automated storage, barcode/RFID-based drug identification and retrieval, anti-fraud control, route optimization, and internal order coordination.<br><br>
+            In addition, the project incorporates mechatronic modules to execute medication dispensing based on prescriptions entered into the system. A user interface (UI) will also be developed to enable interaction with the system and to manage medication data, including inventory levels, expiration dates, and batch information. The proposed application is intended to contribute to the development of smart pharmacies by supporting inventory control, traceability, and accurate, transparent pharmaceutical distribution.
+        </p>
+
+        <a href="#more-thesis" class="thesis-down" aria-label="Go to more about thesis">
+            <svg viewBox="0 0 100 100" class="hex-shape" aria-hidden="true">
+                <polygon points="50,0 95,20 95,70 50,100 5,70 5,20"></polygon>
+            </svg>
+            <i class='bx bx-down-arrow-alt'></i>
+        </a>
+    </section>
+
+    <!-- more about thesis section -->
+    <section class="more-thesis" id="more-thesis">
+        <h2 class="heading thesis-heading">More about <span>Thesis</span></h2>
+
+        <!-- 0.png full width + content below -->
+        <article class="thesis-panel thesis-panel--dark thesis-panel--overview">
+            <div class="thesis-panel__inner thesis-overview">
+                <div class="thesis-overview__media">
+                    <img src="images/0.png" alt="Thesis overview drawing 0">
+                </div>
+
+                <div class="thesis-overview__content">
+                    <div class="thesis-overview__columns">
+                        <div class="thesis-overview__col">
+                            <div class="thesis-bullet">
+                                <img src="images/icon1.png" alt="icon 1">
+                                <p>
+                                    The LY-01 DC 12–24V solenoid lock is utilized as an actuating mechanism for the latch system in the medicine dispensing module. During the dispensing process, the latch bar temporarily retains the medication inside the pickup mechanism, preventing unintended release caused by the inclined geometry of the storage chute. Once the mechanism reaches the designated dispensing position, the solenoid retracts the latch, allowing the medication to drop accurately into the doctor’s receiving compartment.
+                                </p>
+                            </div>
+
+                            <div class="thesis-bullet">
+                                <img src="images/icon2.png" alt="icon 2">
+                                <p>
+                                    The 2020 aluminum V-slot linear motion kit, equipped with large V-wheels, is used to facilitate smooth and stable Y-axis motion of the medicine-picking mechanism along the 2020 V-slot aluminum profile.
+                                </p>
+                            </div>
+
+                            <div class="thesis-bullet">
+                                <img src="images/icon3.png" alt="icon 3">
+                                <p>
+                                    Link 1 and Link 2 are symmetrically arranged components within the four-bar linkage mechanism.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="thesis-overview-divider"></div>
+
+                        <div class="thesis-overview__col">
+                            <div class="thesis-bullet">
+                                <img src="images/icon4.png" alt="icon 4">
+                                <p>
+                                    The lifting mechanism is based on a symmetrical four-bar parallelogram linkage connected through 693ZZ Bearing bearings and secured using M3 bolts and nuts. The mechanism operates according to Grashof’s Law: s+l=p+q. This configuration enables stable vertical motion during the medicine retrieval process. The mechanism is actuated by a Tower Pro MG996R Servo Motor servo motor, which rotates to lift the medicine container from the tray and securely retain it within the retrieval frame for transportation to the dispensing area.
+                                </p>
+                            </div>
+
+                            <div class="thesis-bullet">
+                                <img src="images/icon5.png" alt="icon 5">
+                                <p>
+                                    The Tower Pro MG996R 360° servo motor is used to rotate the medicine-picking mechanism.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- 1.png -->
+        <article class="thesis-panel thesis-panel--light">
+            <div class="thesis-panel__inner">
+                <div class="thesis-panel__media">
+                    <img src="images/1.png" alt="First-angle projection">
+                </div>
+                <div class="thesis-panel__content thesis-panel__content--right">
+                    <h3 class="thesis-panel__title projection-title">First-angle projection</h3>
+                </div>
+            </div>
+        </article>
+
+        <!-- 2.png -->
+        <article class="thesis-panel thesis-panel--dark thesis-panel--reverse">
+            <div class="thesis-panel__inner">
+                <div class="thesis-panel__media">
+                    <img src="images/2.png" alt="Second-angle projection">
+                </div>
+                <div class="thesis-panel__content thesis-panel__content--left">
+                    <h3 class="thesis-panel__title projection-title">Second-angle projection</h3>
+                </div>
+            </div>
+        </article>
+
+        <!-- 3.png -->
+        <article class="thesis-panel thesis-panel--light">
+            <div class="thesis-panel__inner">
+                <div class="thesis-panel__media">
+                    <img src="images/3.png" alt="Third-angle projection">
+                </div>
+                <div class="thesis-panel__content thesis-panel__content--right">
+                    <h3 class="thesis-panel__title projection-title">Third-angle projection</h3>
+                </div>
+            </div>
+        </article>
+
+        <!-- 4.png -->
+        <article class="thesis-panel thesis-panel--dark thesis-panel--reverse">
+            <div class="thesis-panel__inner">
+                <div class="thesis-panel__media">
+                    <img src="images/4.png" alt="Fourth-angle projection">
+                </div>
+                <div class="thesis-panel__content thesis-panel__content--left">
+                    <h3 class="thesis-panel__title projection-title">Fourth-angle projection</h3>
+                </div>
+            </div>
+        </article>
+
+        <!-- 5.png -->
+        <article class="thesis-panel thesis-panel--light">
+            <div class="thesis-panel__inner">
+                <div class="thesis-panel__media">
+                    <img src="images/5.png" alt="Fifth-angle projection">
+                </div>
+                <div class="thesis-panel__content thesis-panel__content--right">
+                    <h3 class="thesis-panel__title projection-title">Fifth-angle projection</h3>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <!-- activities section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading thesis-heading">My <span>Activities</span></h2>
+
+        <article class="activity-panel activity-panel--dark">
+            <div class="activity-panel__inner">
+                <div class="activity-panel__media">
+                    <img src="images/RND_2023.png" alt="RnD to Start-up 2023">
+                </div>
+                <div class="activity-panel__caption">
+                    <h3 class="activity-title activity-monofrik-title">RnD to Start-up 2023</h3>
+                    <p class="activity-desc">
+                        Top 30 team (2023) of Technology innovation competition organized by Vietnam National University, Hanoi.
+                    </p>
+                </div>
+            </div>
+        </article>
+
+        <article class="activity-panel activity-panel--dark">
+            <div class="activity-panel__inner">
+                <div class="activity-panel__media">
+                    <img src="images/Spring Volunteer Campaign.png" alt="Spring Volunteer Campaign of Faculty of International Business UEH 2025">
+                </div>
+                <div class="activity-panel__caption">
+                    <h3 class="activity-title activity-monofrik-title">Spring Volunteer Campaign of Faculty of International Business UEH 2025</h3>
+                    <p class="activity-desc">
+                        The “Loc Quang – Khởi Sắc Đan Xuân” Spring Volunteer Campaign 2025, organized by the International Business – Marketing Student Union, was held at Loc Quang Primary School in Loc Quang Commune. With the participation of 62 volunteers, the campaign aimed to provide support to local children and residents while spreading compassion and meaningful community values.
+                    </p>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2026 by Nam My / All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home" aria-label="Back to top">
+                <svg viewBox="0 0 100 100" class="hex-shape" aria-hidden="true">
+                    <polygon points="50,0 95,20 95,70 50,100 5,70 5,20"></polygon>
+                </svg>
+                <i class='bx bx-up-arrow-alt'></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        (() => {
+            const pdf = document.getElementById('thesisPdf');
+            const range = document.getElementById('thesisZoom');
+            const value = document.querySelector('.zoom-value');
+            const buttons = document.querySelectorAll('.zoom-btn');
+
+            let zoom = 1;
+            const min = 0.8;
+            const max = 1.6;
+            const step = 0.1;
+
+            function applyZoom(nextZoom) {
+                zoom = Math.min(max, Math.max(min, nextZoom));
+                pdf.style.setProperty('--pdf-zoom', zoom);
+                range.value = String(Math.round(zoom * 100));
+                value.textContent = `${Math.round(zoom * 100)}%`;
+            }
+
+            range.addEventListener('input', () => {
+                applyZoom(Number(range.value) / 100);
+            });
+
+            buttons.forEach((btn) => {
+                btn.addEventListener('click', () => {
+                    applyZoom(zoom + (btn.dataset.action === 'in' ? step : -step));
+                });
+            });
+
+            applyZoom(1);
+        })();
+    </script>
+</body>
+</html>
